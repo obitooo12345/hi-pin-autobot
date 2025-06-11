@@ -15,27 +15,26 @@ Automated bot for farming HiPin tasks using **multiple accounts**.
 3. Run the bot: `node index.js`
 
 
-1.Clone this repository
+Clone this repository
 bash
-Copy code
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git cd YOUR_REPO Install required packages
+git clone https://github.com/obitooo12345/hi-pin-autobot.git
+cd hi-pin-autobot 
+
+4. Install required packages
 bash
-Copy code
+
 npm install axios 
+
 5. Add your tokens
 Create a token.txt file with one token per line:
 bash
-Copy code
+
 echo -e "token1\ntoken2\n..." > token.txt 
 6. Run the bot
 bash
-Copy code
+
 node index.js 
 Note: Keep your token.txt private and never share it publicly.
-Example `token.txt`:
-```
-eyJhbGciOi1...
-eyJhbGciOi2...
 ```
 
 ## Note
